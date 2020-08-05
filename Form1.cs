@@ -60,5 +60,15 @@ namespace EjercicioCondicionales2
             Gb1.Visible = true;
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            txthorastrabajadas.Text = string.Empty;
+            txtvalorhoras.Text = string.Empty;
+            Gb1.Visible = false;
+            txtvalorhoras.Focus();
+            
+
+        }
     }
 }
